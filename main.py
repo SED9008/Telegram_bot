@@ -5,7 +5,7 @@ from Parser 	import Parser
 from BotHelper 	import BotHelper
 
 # Telegram Bot Authorization Token
-bot 	= telegram.Bot(token='148207558:AAHWvOdQ5w5u_EenT0U3kA-MjBvi3-8y5Mw')
+bot 	= telegram.Bot(token=TOKEN)
 # Custom command parser initialisation
 p 		= Parser()
 # Bot helper handles commands and the database
