@@ -27,7 +27,7 @@ class Parser:
 												'command':			words[1],
 												'trigger':			words[2],
 												'response_type': 	words[3],
-												'response': 		words[4],
+												'response': 		response,
 												}
 								return assignment
 							else:
